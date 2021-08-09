@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetConquerorCore", "PlanetConquerorCore\PlanetConquerorCore.csproj", "{F9B8882A-4AA0-42CC-A5EE-C6D1D198ADB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetConquerorCoreTests", "PlanetConquerorCoreTests\PlanetConquerorCoreTests.csproj", "{C3042C1C-67C6-4D31-A1B6-39850BEF0BA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9B8882A-4AA0-42CC-A5EE-C6D1D198ADB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B8882A-4AA0-42CC-A5EE-C6D1D198ADB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B8882A-4AA0-42CC-A5EE-C6D1D198ADB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B8882A-4AA0-42CC-A5EE-C6D1D198ADB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3042C1C-67C6-4D31-A1B6-39850BEF0BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3042C1C-67C6-4D31-A1B6-39850BEF0BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3042C1C-67C6-4D31-A1B6-39850BEF0BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3042C1C-67C6-4D31-A1B6-39850BEF0BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
