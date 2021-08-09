@@ -51,6 +51,13 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Colony\Building.cs" />
+        <Compile Include="Colony\ColonyTest.cs" />
+        <Compile Include="Colony\HousingTest.cs" />
+        <Compile Include="Colony\WorkingTest.cs" />
+        <Compile Include="Helpers\ResourceTest.cs" />
+        <Compile Include="Person\ColonistTest.cs" />
+        <Compile Include="Planet\Planet.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
