@@ -1,4 +1,4 @@
-namespace TestProject1.Colony {
+namespace TestProject1.ColonyTests {
     public class WorkingTest {
         
     }

@@ -51,15 +51,21 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Colony\Building.cs" />
-        <Compile Include="Colony\ColonyTest.cs" />
-        <Compile Include="Colony\HousingTest.cs" />
-        <Compile Include="Colony\WorkingTest.cs" />
+        <Compile Include="ColonyTests\ColonyTest.cs" />
+        <Compile Include="ColonyTests\HousingTest.cs" />
+        <Compile Include="ColonyTests\WorkingTest.cs" />
         <Compile Include="Helpers\ResourceTest.cs" />
         <Compile Include="Person\ColonistTest.cs" />
         <Compile Include="Planet\Planet.cs" />
+        <Compile Include="TestingExamples.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\PlanetConquerorCore\PlanetConquerorCore.csproj">
+        <Project>{f9b8882a-4aa0-42cc-a5ee-c6d1d198adb9}</Project>
+        <Name>PlanetConquerorCore</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

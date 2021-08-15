@@ -16,6 +16,7 @@ namespace PlanetConquerorCore.Colony {
         }
         private void InitResourceList() {
             ResourcesCollected = new List<Resource>();
+            ResourcesCollected = EnumListInitialiser.InitialiseList<Resource>();
             // TODO: loop through enum of resource type and make initial ResourcesCollected list
         }
     }
